@@ -3,7 +3,7 @@
 /* Super Swag Browser Stuff */
 
 * {
-	scrollbar-color: #4f4 #0000;
+	scrollbar-color: var(--special) #0000;
 }
 
 ::-webkit-scrollbar {
@@ -12,13 +12,13 @@
 	width: default;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: #4f4;
+	background-color: var(--special);
 }
 ::-webkit-scrollbar-thumb:hover {
-	background-color: #8f8;
+	background-color: var(--link);
 }
 ::-webkit-scrollbar-thumb:active {
-	background-color: #f80;
+	background-color: var(--active);
 }
 
 ::selection {
@@ -50,7 +50,7 @@ body {
 	background-color: var(--fill);
 	background-image: url("/assets/background/stars.svg");
 	background-position: center;
-	background-size: 100vmin 100vmin;
+	background-size: calc((95vw + 95vh) / 2);
 
 	color: var(--text);
 	margin: 1em auto;
@@ -60,23 +60,21 @@ body {
 a:link {
 	color: var(--link);
 }
-a:link:focus, a:link:hover {
+a:link:focus, a:link:hover, a:visited:focus, a:visited:hover {
 	background-color: var(--link);
 	border-radius: 0.125em;
 	color: var(--fill);
+	outline: none;
+	text-decoration: none;
 }
 a:visited {
 	color: var(--visited);
 }
 a:visited:focus, a:visited:hover {
 	background-color: var(--visited);
-	border-radius: 0.125em;
-	color: var(--fill);
 }
 a:link:active, a:visited:active {
 	background-color: var(--active);
-	border-radius: 0.125em;
-	color: var(--fill);
 }
 
 /* Usual Elements */
