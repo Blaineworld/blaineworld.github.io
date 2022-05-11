@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+	<path fill="#c22" d="
+		M 16,16
+		Q 16,10 13,9
+		Q 15,7 15,4
+		Q 15,0 9,0
+		Q 5,0.5 4,4
+		Q 3,6 2,6
+		Q 0,7 0,8
+		Q 6,9 9,6
+		Q 9,9 3,9
+		Q 4,10 7,10
+		L 7,10.5
+		Q 4,12.5 3,16
+		L 0,16
+	" />
+	<path fill="#2ee" d="
+		M 6,6
+		Q 8,5.5 9.5,4
+		Q 7,2 6,6
+	" />
+	<circle fill="#000" cx="7.75" cy="4.375" r="0.8" />
+</svg>

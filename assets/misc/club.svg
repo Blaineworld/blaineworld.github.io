@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 16 16">
+	<polygon fill="#0c0" points="
+		0,0
+		-3.5,-5
+		0,-8
+		3.5,-5
+
+		0,0
+		5,-3.5
+		8,0
+		5,3.5
+
+		0,0
+		-5,3.5
+		-8,0
+		-5,-3.5
+
+		0,0
+		2.5,8
+		-2.5,8
+	" />
+</svg>
